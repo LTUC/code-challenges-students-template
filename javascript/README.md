@@ -13,7 +13,7 @@
 
 
 ## For Each Code Challenge:
-- Retrieve the Code Chanllenge Question:  `npm run pull-challenge <challenge-number>`
+- Retrieve the Code Challenge Question:  `npm run pull-challenge <challenge-number>`
    - For Example: 
 ```bash
     npm run pull-challenge 01
@@ -25,7 +25,7 @@
    cd code-challenges/challenge01/
 ```
 - Solve the Code Challenge and write the required tests
-- To execute the tests run your the test from the root of `prep-challenges` repo :
+- To execute the tests run the test from the root of the `Code Challenges and Algorithms` repo:
 
   - to run all tests: `npm test`
   - to run specific tests: `npm test <test-number>`
