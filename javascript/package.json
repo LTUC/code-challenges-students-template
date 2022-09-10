@@ -7,25 +7,26 @@
     "test": "test"
   },
   "scripts": {
-    "pull-challenge": "`which bash` ./bin/pull-challenge-js.sh",
-    "test": "jest --verbose --coverage"
+    "pull-challenge": "`which bash` ./bin/pull-challenge.sh",
+    "test": "jest --verbose --coverage",
+    "list-test": "jest --listTests"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/LTUC/code-challenges-students-template"
   },
-  "keywords": ["Problem Solving", "Algorithms"],
+  "keywords": [
+    "Problem Solving",
+    "Algorithms"
+  ],
   "author": "Boshra Jaber, ASAC Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LTUC/new-prep-challenges-std-template/issues"
+    "url": "https://github.com/LTUC/code-challenges-students-template/issues",
+    "email": "b.jaber@ltuc.com"
   },
   "homepage": "https://github.com/LTUC/code-challenges-students-template#readme",
   "dependencies": {
-    "jest": "^27.4.7",
-    "pytest": "^1.0.0",
-    "supertest": "^6.2.4"
+    "jest": "^27.4.7"
   }
 }
-
-// code-challenges-students-template
