@@ -1,5 +1,5 @@
 import pytest
-from code_challenge.sample_challenge import sum
+from code_challenges.sample_challenge import sum
 
 
 def test_one():
