@@ -9,7 +9,7 @@
   - For example:
 
     ```bash
-    npm run pull-challenge-js 01
+    npm run pull-challenge 01
     ```
 
 - To execute the tests run your the test from the root of `prep-challenges` repo :

@@ -1,9 +1,17 @@
 #!/bin/bash
 
-echo "pulling Code Challenge $1"
+echo "*********************************"
+echo "*** Pulling Code Challenge $1 ***"
+echo "*********************************"
 
-`which curl` -s https://ltuc.github.io/new-prep-challenges-content/day-$1/Challenge$1.js > ./code-challenges/challenges-$1.js
-`which curl` -s https://ltuc.github.io/new-prep-challenges-content/day-$1/Challenge$1.test.js > ./test/challenges-$1.test.js
+motive () {
+  echo "Motiviation Quote of Today:"
+  curl -s https://motivational-quote-api.herokuapp.com/quotes/random  | jq -r '.quote'
+}
+motive
+echo "*********************************"
 
+mkdir code-challenges/challenge$1
 
-# echo "Hello World"
+`which curl` -s https://ltuc.github.io/code-challenges-content/javascript/day$1/challenge$1.js > ./code-challenges/challenge$1/challenge$1.js
+`which curl` -s https://ltuc.github.io/code-challenges-content/javascript/day$1/challenge$1.test.js > ./code-challenges/challenge$1/challenge$1.test.js
