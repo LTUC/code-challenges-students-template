@@ -21,10 +21,10 @@ if [ ! -d "$directory" ];
 then
         mkdir code_challenges/$topic
 fi
-mkdir code_challenges/$topic/challenge$2
+mkdir -p code_challenges/$topic/challenge$2
 
 
-`which curl` -s https://boshrajaber.github.io/code-challenges-content/javascript/$1/challenge$2/README.md > code_challenges/$topic/challenge$2/README.md
+`which curl` -s https://ltuc.github.io/code-challenges-questions/code_challenges/$1/challenge$2/README.md > code_challenges/$topic/challenge$2/README.md
 
 echo "# Write here the code challenge solution" >> code_challenges/$topic/challenge$2/challenge$2.py
 echo "# Write your test here" >> code_challenges/$topic/challenge$2/test_challenge$2.py
