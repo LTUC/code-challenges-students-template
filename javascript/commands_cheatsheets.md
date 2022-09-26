@@ -8,6 +8,7 @@
 
 * `npm run pull-challenge tree 01`
 * `npm run pull-challenge tree 02`
+* `npm run pull-challenge tree 03`
   
 * `npm run pull-challenge hashtable 01`
 * `npm run pull-challenge hashtable 02`
