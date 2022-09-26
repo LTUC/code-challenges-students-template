@@ -9,6 +9,7 @@
 
 * `python pull.py tree 01`
 * `python pull.py tree 02`
+* `python pull.py tree 03`
   
 * `python pull.py hashtable 01`
 * `python pull.py hashtable 02`
