@@ -2,14 +2,8 @@
   "name": "advance-code-challenges",
   "version": "1.0.0",
   "description": "Problem Solving, Algorithms, Code Challenges",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "pull-challenge": "`which bash` ./bin/pull-challenge.sh",
-    "test": "jest --verbose --coverage",
-    "list-test": "jest --listTests"
+    "pull-challenge": "`which bash` ./bin/pull-challenge.sh"
   },
   "repository": {
     "type": "git",
@@ -19,15 +13,14 @@
     "Problem Solving",
     "Algorithms"
   ],
-  "author": "Boshra Jaber, ASAC Team",
+  "author": "ASAC Team",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LTUC/code-challenges-students-template/issues",
-    "email": "b.jaber@ltuc.com"
+    "email": "ASAC@ltuc.com"
   },
   "homepage": "https://github.com/LTUC/code-challenges-students-template#readme",
   "dependencies": {
-    "jest": "^27.4.7",
-    "jq": "^1.7.2"
+    
   }
 }
