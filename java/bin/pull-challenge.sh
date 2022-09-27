@@ -27,4 +27,4 @@ mkdir -p code-challenges/$topic-challenges/Challenge$2/src/test/java
 
 echo "// Write here the code challenge solution" >> code-challenges/$topic-challenges/challenge$2/src/main/java/App.java
 echo "// Write your test here" >> code-challenges/$topic-challenges/challenge$2/src/test/java/AppTest.java
-
+echo "// Add your whiteboard image here" >> code-challenges/$topic-challenges/challenge$2/whiteboard.md
