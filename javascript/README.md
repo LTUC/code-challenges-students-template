@@ -26,3 +26,7 @@
 - Solve the Code Challenge and write the required tests
 - To execute the tests run the test from the root of the `Code Challenges and Algorithms` repo:
 - `npm test`
+
+### Note:
+- if you faced the following error: `jq command not found`, you have to install `jq` using the following command: 
+`sudo apt install jq`
