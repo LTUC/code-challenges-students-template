@@ -27,3 +27,7 @@ python pull.py linkedlist 01
 ```
 - Solve the Code Challenge and write the required tests
 - Run tests: `pytest`
+
+### Note:
+* if you faced the following error: `jq command not found`, you have to install `jq` using the following command:
+`sudo apt install jq`
