@@ -1,5 +1,3 @@
-python pull.py linkedlist 01
-
 # Code Challenges:
 
 ## Language: `Python`
