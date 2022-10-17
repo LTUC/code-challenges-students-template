@@ -8,7 +8,9 @@
 - Name your repo exactly **Code Challenges and Algorithms**
 - Clone your repo to your local machine
 - Navigate to python folder: `cd python`
-- Install the packages: `pip install`
+- Activate the environment: `python3 -m venv .venv`
+- `source .venv/bin/activate`
+- Install the packages: `pip install -r requirements.txt`
 
 
 ## For Each Code Challenge:
