@@ -7,7 +7,7 @@
 - Go to the repo link: [code-challenges-students-template](https://github.com/LTUC/code-challenges-students-template/generate)
 - Name your repo exactly **Code Challenges and Algorithms**
 - Clone your repo to your local machine
-- Navigate to javascript folder: `cd python`
+- Navigate to python folder: `cd python`
 - Install the packages: `pip install`
 
 
