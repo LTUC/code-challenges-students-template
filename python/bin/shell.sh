@@ -10,7 +10,7 @@ motive () {
   echo "Motiviation Quote of Today:"
   curl -s https://motivational-quote-api.herokuapp.com/quotes/random  | jq -r '.quote'
 }
-motive
+# motive
 echo "*************************************"
 
 topic=$1
