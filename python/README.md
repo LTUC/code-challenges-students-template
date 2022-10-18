@@ -7,6 +7,7 @@
 - Go to the repo link: [code-challenges-students-template](https://github.com/LTUC/code-challenges-students-template/generate)
 - Name your repo exactly **Code Challenges and Algorithms**
 - Clone your repo to your local machine
+- Navigate to the repo folder
 - Navigate to python folder: `cd python`
 - Activate the environment: `python3 -m venv .venv`
 - `source .venv/bin/activate`
